@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Classroom lens · Who holds the intelligence?</title>
+    <meta
+      name="description"
+      content="A browser-only classroom dashboard that reads the AI sovereignty survey workbook and turns it into evidence-linked charts, themes and original answers."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%237d9b76'/%3E%3C/svg%3E"
+    />
+    <script type="module" crossorigin src="./assets/index-C7so28ER.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-iNotKxj1.css">
+  </head>
+  <body>
+    <!--
+      The static shell (header, hero, nav, footer, back-to-top) lives here.
+      Everything that depends on the loaded workbook is rendered into the
+      empty <section> containers below by app/main.js.
+    -->
+    <a class="skip-link" href="#overview">Skip to the overview</a>
+
+    <span id="top" tabindex="-1"></span>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <span class="brand">Classroom lens</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span class="unit">Information Systems</span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span class="tag">Browser-only analysis</span>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero" aria-labelledby="hero-heading">
+        <h1 id="hero-heading" tabindex="-1">Who holds the intelligence?</h1>
+        <p class="hero-intro">
+          This page reads the AI sovereignty survey workbook straight from your browser — no
+          server, no account, no upload. Every number below is derived from the spreadsheet that
+          is currently loaded, and every chart links back to the original answers it was counted
+          from.
+        </p>
+        <div id="hero-badge-slot" class="hero-badge-slot"></div>
+      </section>
+
+      <nav class="section-nav" aria-label="Dashboard sections">
+        <a href="#overview">Overview</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#preference">AI investment</a>
+        <a href="#reliance">Everyday reliance</a>
+        <a href="#business">Business</a>
+        <a href="#definitions">Definitions</a>
+        <a href="#responses">Responses</a>
+      </nav>
+
+      <section id="workbook" class="panel" aria-labelledby="workbook-heading"></section>
+
+      <section id="about-data" class="panel" aria-labelledby="about-heading"></section>
+
+      <section id="filters" class="panel" aria-labelledby="filters-heading"></section>
+
+      <section id="overview" class="panel" aria-labelledby="overview-heading"></section>
+
+      <section id="charts" class="chart-grid" aria-label="Survey charts"></section>
+
+      <section id="themes" class="panel" aria-labelledby="themes-heading"></section>
+
+      <section id="definitions" class="panel" aria-labelledby="definitions-heading"></section>
+
+      <section id="responses" class="panel" aria-labelledby="responses-heading"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          A teaching aid for a classroom discussion. Figures are counting aids, not findings: the
+          theme groupings are provisional and keyword matching cannot read meaning, context or
+          negation.
+        </p>
+        <p class="footer-quiet">
+          Runs entirely in your browser. No data leaves this page and nothing you load is stored
+          on a server.
+        </p>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" type="button" hidden>
+      <span aria-hidden="true">↑</span> Back to top
+    </button>
+
+  </body>
+</html>

@@ -1,0 +1,5 @@
+# Normalise line endings so the committed docs/ build stays byte-stable
+# across Windows, macOS and Linux checkouts.
+* text=auto eol=lf
+*.xlsx binary
+*.png binary

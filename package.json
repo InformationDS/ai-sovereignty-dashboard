@@ -1,0 +1,23 @@
+{
+  "name": "ai-sovereignty-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Classroom dashboard that turns the AI Sovereignty survey workbook into evidence-linked visual insights. Browser-only: no backend, no accounts, no database.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:browser": "node tools/browser-check-interactions.mjs",
+    "check:upload": "node tools/browser-check-upload.mjs"
+  },
+  "dependencies": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
+}
